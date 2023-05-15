@@ -18,6 +18,8 @@ body {
     margin-left: 20px;
     float: left;
     font-size: 300%;
+    margin-bottom: 20px;
+    height: 40px;
 }
 
 h1,
@@ -32,6 +34,20 @@ h2 {
     text-align: center;
 }
 
+/*Nvigation links*/
+
+#menu {
+    float: right;
+    margin-right: 30px;
+    font-size: large;
+    height: 40px;
+    margin-top: 20px;
+    color: #3a3a3a
+}
+
+#menu li {
+    list-style-type: none;
+}
 
 /*About IPA*/
 
@@ -54,12 +70,11 @@ p {
 #hero {
     width: 100%;
     height: 700px;
-    margin-top: 30px;
 }
 
 #ale, img{
     width: 100%;
-    height: 700px;
+    height: 650px;
     margin: 0 auto;
 }
 

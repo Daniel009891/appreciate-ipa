@@ -9,9 +9,9 @@
 body {
     font-family: lato, sans-serif;
     font-weight: 200;
-    color: #3a3a3a;
+    color: #fffff0;
 }
-
+ 
 /*logo and headings*/
 
 #logo {
@@ -25,7 +25,7 @@ body {
 h1,
 h2 {
     font-family: lato, sans-serif;
-    color: #3a3a3a;
+    color: #fffff0;
     text-transform: uppercase;
     letter-spacing: 10px;
 }
@@ -39,24 +39,34 @@ h2 {
 #menu {
     float: right;
     margin-right: 30px;
-    font-size: large;
+    font-size: 150%;
     height: 40px;
     margin-top: 20px;
-    color: #3a3a3a
+    color: #fffff0;
+    letter-spacing: 5px;
 }
 
 #menu li {
     list-style-type: none;
 }
 
+#menu a {
+    text-decoration: none;
+    color: #fffff0;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #fffff0;
+}
+
 /*About IPA*/
 
 #about {
     width: 100%;
-    height: 400px;
+    height: 600px;
     float: left;
     padding-top: 20px;
-    background-color: blue;
+    background-color: #C4A484
 }
 
 p {
@@ -64,13 +74,14 @@ p {
     margin-top: 20px;
     width: 80%;
     text-align: center;
-    font-size: medium;
+    font-size: 120%;
 }
 
 /*Hero image*/
 #hero {
     width: 100%;
     height: 700px;
+    background-color: #C4A484;
 }
 
 #ale, img{
@@ -82,15 +93,21 @@ p {
 /* Types of IPA */
 
 #types {
-    background-color: yellow;
+    background-color: #C4A484;
     float: left;
     width: 100%;
     height: 300px;
+    margin-top: 2px;
 }
 
 #ipa {
     list-style-type: circle;
-    margin-left: 30px;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 120%;
+}
+
+h2 {
     margin-top: 20px;
 }
 

@@ -126,7 +126,7 @@ footer {
 .social-links {
     text-align: center;
     background-color: #C4A484;
-    height: 200px;
+    height: 100px;
 }
 
 .social-links i {
@@ -142,4 +142,23 @@ h3 {
     font-family: lato, sans-serif;
     text-align: center;
     height: 30px;
+    margin-top: 2px;
+    padding-top: 10px;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
 }

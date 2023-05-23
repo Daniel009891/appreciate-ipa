@@ -162,3 +162,42 @@ body {
 .footer {
     flex-shrink: 0;
 }
+
+/* Form styling */
+
+.win {
+    background-color: #C4A484;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.win > h2 {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+form {
+    background-color: #C4A484;
+    height: 600px;
+    
+}
+
+#fname, #lname, #email, #age {
+    background-color: #C4A484;
+    border: 1px solid #fffff0;
+    color: #fffff0;
+    
+    
+}
+
+.ages, .first_name, .last_name, .email_address{
+    width: 25%;
+    height: 20px;
+    padding-top: 5px;
+    display: inline;
+    float: left;
+    background-color: #C4A484;
+    text-align: center;
+}
+

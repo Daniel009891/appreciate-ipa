@@ -52,6 +52,8 @@
             <fieldset class="details">
                 <legend>Your Details</legend>
 
+                <div class="blank"></div>
+
             <div class="first_name">
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="first_name" required>
@@ -81,41 +83,57 @@
 
             </fieldset>
 
-            <fieldset class="types">
+            <fieldset class="selection">
                 <legend>What is your favourite style of IPA?</legend>
                 
                 <div id="types-ipa">
 
-                <input id="new-england-ipa-radio" name="new-england" value="new-england-ipa" type="radio">
+                <input id="new-england-ipa-radio" name="ipa" value="new-england-ipa" type="radio" required>
                 <label for="new-england-ipa-radio">New England IPA</label>
 
-                <input id="black-ipa-radio" name="black" value="black-ipa" type="radio">
+                <input id="black-ipa-radio" name="ipa" value="black-ipa" type="radio">
                 <label for="black-ipa-radio">Black IPA</label>
 
-                <input id="double-ipa-radio" name="double" value="double-ipa" type="radio">
+                <input id="double-ipa-radio" name="ipa" value="double-ipa" type="radio">
                 <label for="double-ipa-radio">Double IPA</label>
 
-                <input id="american-ipa-radio" name="american" value="american-ipa" type="radio">
+                <input id="american-ipa-radio" name="ipa" value="american-ipa" type="radio">
                 <label for="american-ipa-radio">American IPA</label>
 
-                <input id="session-ipa-radio" name="session" value="session-ipa" type="radio">
+                <input id="session-ipa-radio" name="ipa" value="session-ipa" type="radio">
                 <label for="session-ipa-radio">Session IPA</label>
 
-                <input id="triple-ipa-radio" name="triple" value="triple-ipa" type="radio">
+                <input id="triple-ipa-radio" name="ipa" value="triple-ipa" type="radio">
                 <label for="triple-ipa-radio">Triple IPA</label>
 
-                <input id="west-coast-ipa-radio" name="west-coast" value="west-coast-ipa" type="radio">
+                <input id="west-coast-ipa-radio" name="ipa" value="west-coast-ipa" type="radio">
                 <label for="west-coast-ipa-radio">West Coast IPA</label>
 
-                <input id="english-ipa-radio" name="english" value="english-ipa" type="radio">
+                <input id="english-ipa-radio" name="ipa" value="english-ipa" type="radio">
                 <label for="english-ipa-radio">English IPA</label>
 
-                <input id="sour-ipa-radio" name="sour" value="sour-ipa" type="radio">
+                <input id="sour-ipa-radio" name="ipa" value="sour-ipa" type="radio">
                 <label for="sour-ipa-radio">Sour IPA</label>
 
                 </div>
 
             </fieldset>
+
+            <fieldset class="feedback">
+                
+                <legend>Where did you hear about us?</legend>
+                <div id="text">
+                <textarea name="feedback" id="feedback" cols="155" rows="3" placeholder="Type Here" required></textarea>
+                </div>
+            </fieldset>
+
+            <div class="submit">
+            <button type="submit">
+                <strong>Submit Now</strong>
+            </button>
+
+            <button type="reset">Reset Form</button>
+            </div>
             
             
         </form>

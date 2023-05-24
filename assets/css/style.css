@@ -174,16 +174,17 @@ body {
 }
 
 .win > h2 {
-    margin-top: 10px;
+    margin-top: 20px;
     padding-top: 10px;
 }
 
 form {
     background-color: #C4A484;
-    height: 300px;
+    height: 450px;
     margin-top: 20px;
     
 }
+
 
 .details {
     background-color: #C4A484;
@@ -197,7 +198,7 @@ form {
 .first_name, .last_name, .email_address, .ages {
     display: inline;
     text-align: center;
-    margin-left: 25px;
+    margin-left: 70px;
 }
 
 #fname, #lname, #email, #age {
@@ -207,7 +208,7 @@ form {
     margin-bottom: -30px;
 }
 
-.types {
+.selection {
     background-color: #C4A484;
     border: 2px solid #fffff0;
     height: 100px;
@@ -224,4 +225,44 @@ form {
 
 #new-england, #black, #double, #american, #session, #triple, #west-coast, #english, #sour {
     margin-left: 8px;
+}
+
+.blank {
+    height: 20px;
+}
+
+#new-england-ipa-radio, #black-ipa-radio, #double-ipa-radio, #american-ipa-radio, 
+#session-ipa-radio, #triple-ipa-radio, #west-coast-ipa-radio, #english-ipa-radio, #sour-ipa-radio {
+    margin-left: 30px;
+}
+
+.feedback {
+    background-color: #C4A484;
+    border: 2px solid #fffff0;
+    height: 100px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#feedback {
+    background-color: #C4A484;
+    border: 1px solid #fffff0;
+    color: #fffff0;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+button {
+    background-color: darkslategray;
+    color: #fffff0;
+    border-radius: 2px;
+    height: 20px;
+    width: 90px;
+    margin-right: 5px;
+}
+
+.submit {
+    margin-left: 65px;
+    margin-top: 20px;
 }

@@ -10,6 +10,7 @@ body {
     font-family: lato, sans-serif;
     font-weight: 200;
     color: #fffff0;
+    background-color: #C4A484;
 }
  
 /*logo and headings*/
@@ -179,25 +180,48 @@ body {
 
 form {
     background-color: #C4A484;
-    height: 600px;
+    height: 300px;
+    margin-top: 20px;
     
+}
+
+.details {
+    background-color: #C4A484;
+    border: 2px solid #fffff0;
+    height: 100px;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 2px solid #fffff0; 
+}
+
+.first_name, .last_name, .email_address, .ages {
+    display: inline;
+    text-align: center;
+    margin-left: 25px;
 }
 
 #fname, #lname, #email, #age {
     background-color: #C4A484;
-    border: 1px solid #fffff0;
     color: #fffff0;
-    
-    
+    border: 1px solid #fffff0;
+    margin-bottom: -30px;
 }
 
-.ages, .first_name, .last_name, .email_address{
-    width: 25%;
-    height: 20px;
-    padding-top: 5px;
-    display: inline;
-    float: left;
+.types {
     background-color: #C4A484;
-    text-align: center;
+    border: 2px solid #fffff0;
+    height: 100px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
+#types-ipa {
+    height: 50px;
+    margin-top: 20px;
+    
+}
+
+#new-england, #black, #double, #american, #session, #triple, #west-coast, #english, #sour {
+    margin-left: 8px;
+}

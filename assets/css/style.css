@@ -25,12 +25,19 @@ body {
     height: 40px;
 }
 
-h1,
+h1 {
+    text-transform:uppercase;
+    color: #a9a9a9;
+    font-family: lato, sans-serif;
+    letter-spacing: 10px;
+}
+
 h2 {
     font-family: lato, sans-serif;
-    color: #a9a9a9;
+    color: #708090;
     text-transform: uppercase;
     letter-spacing: 10px;
+    font-weight: bold;
 }
 
 h2 {
@@ -67,8 +74,9 @@ h2 {
 #about {
     width: 100%;
     height: 600px;
+    background-color: #ffa6005e;
+    display: block;
     float: left;
-    background-color: #ffa6005e
 }
 
 p {
@@ -80,6 +88,23 @@ p {
     font-weight: bold;
     line-height: 2;
 }
+
+#about-inner {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+iframe #iframe-blank{
+    padding-top: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+#iframe-blank {
+    height: 50px;
+}
+
+
 
 /*Hero image*/
 
@@ -95,6 +120,25 @@ p {
     margin: 0 auto;
 }
 
+#cover-text {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+
 /* Types of IPA */
 
 #types {
@@ -102,7 +146,7 @@ p {
     float: left;
     width: 100%;
     height: 350px;
-    margin-top: 2px;
+    border-top: 2px solid #708090;
 }
 
 #ipa {
@@ -122,6 +166,7 @@ h2 {
 footer {
     height: 100px;
     width: 100%;
+    border-top: 2px solid #708090;
 }
 
 .social-links > li {
@@ -142,7 +187,6 @@ footer {
 }
 
 h3 {
-    background-color: #ffffff;
     color: #a9a9a9;
     font-family: lato, sans-serif;
     text-align: center;
@@ -172,7 +216,7 @@ body {
 
 .win {
     background-color: #ffffff;
-    height: 100px;
+    height: 130px;
     width: 100%;
     margin-bottom: 0;
 }

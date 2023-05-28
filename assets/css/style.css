@@ -8,6 +8,7 @@
 
 body {
     font-family: lato, sans-serif;
+    width: 100%;
     font-weight: 200;
     color: #708090;
     background-color: #ffffff;
@@ -109,7 +110,7 @@ iframe #iframe-blank{
 #hero {
     width: 100%;
     height: 650px;
-    background: url('../images/beer-and-hops-2500.jpg') no-repeat center center;
+    background: url('../images/beer-and-hops-2700.jpg') no-repeat center center;
 }
 
 #ale{
@@ -123,18 +124,20 @@ iframe #iframe-blank{
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
+    background-color: #70809073;
 
     width: 300px;
     height: 200px;
 
-    padding-top: 40px;
-    padding-left: 10px;
+    padding-top: 60px;
+    
 
 
-    bottom: 30px;
+    bottom: 10px;
     right: 150px;
 
-    position: absolute;
+    float: right;
+    
 }
 
 /* Types of IPA */
@@ -408,8 +411,11 @@ img {
     }
 
     #cover-text {
-        position: relative;
         float: right;
+    }
+
+    #cover-text > h3 {
+        color:black;
     }
 
     #types-ipa {
@@ -439,10 +445,104 @@ img {
 /* For medium screen sizes from 950px wide and down */
 
 @media screen and (max-width: 950px) {
-    #content {
-        width: 100%;
-        height: 1400px;
-        margin: 0 auto;
+    
+    #cover-text {
+        color: black;
     }
 
+    nav {
+        float: left;
+        padding-left: 20px;
+        
+    }
+
+    #content {
+        width: 100%;
+    }
+
+    #about-inner > iframe {
+        width: 300px;
+        height: 200px;
+    }
+
+    #about {
+        height: 400px;
+        
+    }
+
+    #types {
+        height: 800px;
+        float: right;
+        font-size: 60%;
+        margin-left: 0;
+    }
+
+    #ipa {
+        float: left;
+        margin-left: 50px;
+    }
+
+    #menu {
+        font-size: 100%;
+    }
+
+    #logo {
+        font-size: 200%;
+    }
+
+    #contact {
+        height: 200px;
+    }
+
+    
+}
+
+/* For small screen sizes from 350px wide and down */
+
+@media screen and (max-width: 350px) {
+    #hero {
+        width: 100%;
+        height: 500px;
+        background: url('../images/lone-ipa.jpg') no-repeat center center;
+    }
+
+    #logo {
+        font-size: 150%;
+    }
+
+    #menu {
+        font-size: 80%;
+        float: left;
+        margin-top: 0;
+    }
+
+    #cover-text {
+        font-size: 80%;
+    }
+
+    #contact {
+        font-size: 80%;
+        height: 200px;
+    }
+
+    .information {
+        height: 200px;
+    }
+
+    #number {
+        font-size: 80%;
+    }
+
+    #opening-hours {
+        font-size: 80%;
+        height: 150px;
+    }
+
+    #map > h2 {
+        font-size: 80%;
+    }
+
+    #map > h3 {
+        font-size: 80%;
+    }
 }

@@ -243,17 +243,18 @@ form {
     border-bottom: 2px solid #a9a9a9; 
 }
 
-.first_name, .last_name, .email_address, .ages {
-    display: inline;
+#credentials {
     text-align: center;
-    margin-left: 70px;
+    margin: 0 auto;
+     
+    
 }
 
 #fname, #lname, #email, #age {
     background-color: #ffffff;
     color: #a9a9a9;
     border: 1px solid #a9a9a9;
-    margin-bottom: -30px;
+    margin-right: 20px;
 }
 
 .selection {
@@ -268,7 +269,8 @@ form {
 #types-ipa {
     height: 50px;
     margin-top: 20px;
-    
+    margin: 0 auto;
+    text-align: center;
 }
 
 #new-england, #black, #double, #american, #session, #triple, #west-coast, #english, #sour {
@@ -281,7 +283,8 @@ form {
 
 #new-england-ipa-radio, #black-ipa-radio, #double-ipa-radio, #american-ipa-radio, 
 #session-ipa-radio, #triple-ipa-radio, #west-coast-ipa-radio, #english-ipa-radio, #sour-ipa-radio {
-    margin-left: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .feedback {
@@ -320,12 +323,55 @@ button {
 /* For larger to medium screens 1200px wide and down */
 
 @media screen and (max-width: 1200px){
-     #content{
-        width: 65%;
-        height: 1200px;
+     #about{
+        width: 100%;
+        height: 600px;
+        margin: 0 auto;
+        font-size: 80%;
+    }
+     #types {
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+        font-size: 80%;
+    }
+ 
+    .win {
+        width: 100%;
+        height: 100px;
+        margin: 0 auto;
+        font-size: 80%;
+    }
+
+    .details {
+        margin: 0 auto;
+        height: 100px;
+    }
+
+    #credentials {
         margin: 0 auto;
     }
+
+    #fname, #lname, #email {
+        width: 100px;
+    }
+
+    #hero {
+    width:100%;
+    height: 650px;
+    background: url('../images/craft-beer-hero-image.jpg') no-repeat center center;
+    }
+
+    #cover-text {
+        position: relative;
+        float: right;
+    }
+
+    #types-ipa {
+        font-size: 70%;
+    }
     
+     
 }
 
 /* For medium screen sizes from 950px wide and down */

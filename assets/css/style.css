@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
+    border: none; 
 }
 
 body {
@@ -465,7 +465,7 @@ img {
     }
 
     #about-inner > iframe {
-        width: 300px;
+        width: 330px;
         height: 200px;
     }
 
@@ -498,6 +498,71 @@ img {
         height: 200px;
     }
 
+    .win {
+        font-size: 60%;
+        height: 150px;
+    }
+
+    .win > p {
+        margin-top: 30px;
+        height: 50px;
+    }
+    
+    form {
+        margin: 0;
+    }
+
+    .details {
+        height: 160px;
+        margin-top: 10px;
+        
+    }
+
+    #credentials {
+        
+        font-size: 80%;
+    }
+
+    #fname, #lname, #email, #age {
+        width: 150px;
+        display: block;
+        margin: 0 auto;
+        
+    }
+
+    .blank {
+        height: 0;
+    }
+
+    .selection {
+        height: 160px;
+        margin-top: 10px;
+    }
+
+    #new-england-ipa-radio, #black-ipa-radio, #double-ipa-radio, #american-ipa-radio, #session-ipa-radio, #triple-ipa-radio, #west-coast-ipa-radio, #english-ipa-radio, #sour-ipa-radio {
+        display: inline-block;
+        margin-left: 15px;
+    }
+
+    #types-ipa {
+        height: 150px;
+    }
+
+    .feedback {
+        height: 160px;
+    }
+
+    .content {
+        height: 1500px;
+    }
+
+    #feedback {
+        height: 50px;
+        width: 200px;
+    }
+
+    
+
     
 }
 
@@ -522,6 +587,12 @@ img {
 
     #cover-text {
         font-size: 80%;
+        width: 100%;
+    }
+
+    #about-inner>iframe {
+    width: 200px;
+    height: 200px;
     }
 
     #contact {

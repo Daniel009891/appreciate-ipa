@@ -10,7 +10,7 @@ body {
     font-family: lato, sans-serif;
     width: 100%;
     font-weight: 200;
-    color: #708090;
+    color: black;
     background-color: #ffffff;
 }
 
@@ -35,7 +35,7 @@ h1 {
 
 h2 {
     font-family: lato, sans-serif;
-    color: #708090;
+    color: black;
     text-transform: uppercase;
     letter-spacing: 10px;
     font-weight: bold;
@@ -59,6 +59,7 @@ h2 {
 
 #menu li {
     list-style-type: none;
+    display: inline;
 }
 
 #menu a {
@@ -186,7 +187,7 @@ footer {
 }
 
 h3 {
-    color: #a9a9a9;
+    color: black;
     font-family: lato, sans-serif;
     text-align: center;
     height: 30px;

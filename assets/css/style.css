@@ -71,6 +71,10 @@ h2 {
     border-bottom: 1px solid #a9a9a9;
 }
 
+.active {
+    border-bottom: 1px solid #a9a9a9;
+}
+
 /*About IPA*/
 
 #about {
@@ -79,6 +83,7 @@ h2 {
     display: block;
     float: left;
     border-top: 2px solid #708090;
+    background-color: rgba(211, 211, 211, 0.493);
 }
 
 p {
@@ -104,6 +109,10 @@ iframe #iframe-blank{
 
 #iframe-blank {
     height: 50px;
+}
+
+iframe {
+    border: 4px solid #708090
 }
 
 /*Hero image*/
@@ -141,6 +150,7 @@ iframe #iframe-blank{
     width: 100%;
     height: 350px;
     border-top: 2px solid #708090;
+    background-color: rgba(211, 211, 211, 0.493);
 }
 
 #ipa {
@@ -158,9 +168,10 @@ h2 {
 /* Footer */
 
 footer {
-    height: 100px;
+    height: 150px;
     width: 100%;
     border-top: 2px solid #708090;
+    background-color: rgba(211, 211, 211, 0.493);;
 }
 
 .social-links > li {
@@ -209,7 +220,6 @@ body {
 /* Form styling */
 
 .win {
-    background-color: #ffffff;
     height: 130px;
     width: 100%;
     margin-bottom: 0;
@@ -221,7 +231,6 @@ body {
 }
 
 form {
-    background-color: #ffffff;
     height: 450px;
     margin-top: 20px;
     
@@ -373,6 +382,10 @@ img {
     }
     
     #menu a:hover {
+        border-bottom: 1px solid black;
+    }
+
+    .active {
         border-bottom: 1px solid black;
     }
 
@@ -620,6 +633,10 @@ img {
     #about-inner>iframe {
     width: 200px;
     height: 200px;
+    }
+
+    #about {
+        height: 550px;
     }
 
     #contact {

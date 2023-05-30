@@ -13,8 +13,6 @@ body {
     color: black;
     background-color: #ffffff;
 }
-
-
  
 /*logo and headings*/
 
@@ -28,7 +26,7 @@ body {
 
 h1 {
     text-transform:uppercase;
-    color: #a9a9a9;
+    color: black;
     font-family: lato, sans-serif;
     letter-spacing: 10px;
 }
@@ -64,15 +62,15 @@ h2 {
 
 #menu a {
     text-decoration: none;
-    color: #a9a9a9;
+    color: black;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #a9a9a9;
+    border-bottom: 1px solid black;
 }
 
 .active {
-    border-bottom: 1px solid #a9a9a9;
+    border-bottom: 1px solid black;
 }
 
 /*About IPA*/
@@ -119,28 +117,14 @@ iframe {
 
 #hero {
     width: 100%;
-    height: 650px;
-    background: url('../images/beer-and-hops-2700.jpg') no-repeat center center;
+    height: 800px;
+    background: url('../images/selection-of-beers-hero.jpg') no-repeat center center;
 }
 
 #ale{
     width: 100%;
     height: 650px;
     margin: 0 auto;
-}
-
-#cover-text {
-    font-size: 130%;
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    background-color: #70809073;
-    width: 300px;
-    height: 200px;
-    padding-top: 60px;
-    bottom: 10px;
-    right: 150px;
-    float: right;
 }
 
 /* Types of IPA */
@@ -233,7 +217,6 @@ body {
 form {
     height: 450px;
     margin-top: 20px;
-    
 }
 
 
@@ -249,8 +232,6 @@ form {
 #credentials {
     text-align: center;
     margin: 0 auto;
-     
-    
 }
 
 #fname, #lname, #email, #age {
@@ -361,7 +342,6 @@ img {
     margin: 0 auto;
     width: 70%;
     display: block;
-    
 }
 
 #map > h2 {
@@ -428,15 +408,6 @@ img {
     background: url('../images/craft-beer-hero-image.jpg') no-repeat center center;
     }
 
-    #cover-text {
-        float: left;
-        
-    }
-
-    #cover-text > h3 {
-        color:black;
-    }
-
     #types-ipa {
         font-size: 70%;
     }
@@ -453,14 +424,11 @@ img {
     img {
         margin: 0 auto;
         display: block;
-        
     }
 
     .content {
         width: 100%;
     }
-    
-
     
 }
 
@@ -468,14 +436,9 @@ img {
 
 @media screen and (max-width: 950px) {
     
-    #cover-text {
-        color: black;
-    }
-
     nav {
         float: left;
         padding-left: 20px;
-        
     }
 
     #content {
@@ -489,7 +452,6 @@ img {
 
     #about {
         height: 400px;
-        
     }
 
     #types {
@@ -508,12 +470,10 @@ img {
 
     #menu {
         font-size: 100%;
-        
     }
 
     #logo {
         font-size: 200%;
-        
     }
 
     #contact {
@@ -537,11 +497,9 @@ img {
     .details {
         height: 160px;
         margin-top: 10px;
-        
     }
 
     #credentials {
-        
         font-size: 80%;
     }
 
@@ -549,7 +507,6 @@ img {
         width: 150px;
         display: block;
         margin: 0 auto;
-        
     }
 
     .blank {
@@ -587,9 +544,6 @@ img {
         font-size: 80%;
     }
 
-    
-
-    
 }
 
 /* For small screen sizes from 350px wide and down */
@@ -621,11 +575,6 @@ img {
         border-bottom: 1px solid #a9a9a9;
     }
 
-    #cover-text {
-        font-size: 80%;
-        width: 100%;
-    }
-
     #types {
         font-size: 60%;
     }
@@ -642,7 +591,6 @@ img {
     #contact {
         font-size: 80%;
         height: 200px;
-        
     }
 
     .information {

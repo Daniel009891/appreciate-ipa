@@ -8,9 +8,11 @@ The users of this website will become familiar with what IPA is, the different t
 ![Responsive view of Appreciate IPA on all devices](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/website-responsive-views.png)
 
 ## Live Website
+
 [Appreciate IPA](https://daniel009891.github.io/appreciate-ipa/index.html)
 
 ## Repository
+
 [Repository Link](https://github.com/Daniel009891/appreciate-ipa)
 
 ## UX: User Experience
@@ -34,7 +36,7 @@ The initial concept was to create a website that would both inform existing fans
 
 Appreciate IPA consists of three HTML pages. The layout of the website is simple and consistent. A navigation bar at the top makes switching through the pages easy and effortless.
 
-The main page is the default landing page, the second and third pages are easily accessible by clicking on the links in the navigation bar. Each page is broken up so that relevant information for that page is easily found. 
+The main page is the default landing page, the second and third pages are easily accessible by clicking on the links in the navigation bar. Each page is broken up so that relevant information for that page is easily found.
 
 In addition to the navigation bar, The logo is linked to the top of the each page to redirect the user back to the home page.
 
@@ -64,37 +66,43 @@ There is only one font used in the website and it is imported from [Google Fonts
 
 Featured on all three HTML pages, the fully responsive navigation bar includes the logo which links back to the main page. There are also 3 individual navigation links (Home, Contact, Free Beer). This allows the user to easily navigate to their desired page without having to use the "back" button each time.
 
-#### Navigation bar for screen sizes <350px:
+#### Navigation bar for screen sizes <350px
 
 ![Navigation bar less than 350px](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/navigation-bar-small.png)
 
 At 350px the text in the nav will change colour to light grey, this is due to the hero image changing. The light grey provides a better contrast for this background. When hovering over the navigation links, the text displays an underline and the cursor turns to a finger point, this enables the user to tell which link they are hovering over, and indicates that it is a button. When a link is pressed, the underline will stay permenantly on so as to show which page the user is currently looking at.
 
-#### Navigation bar for screen sizes >950px: 
+#### Navigation bar for screen sizes >950px
 
 ![Navigation bar less than 950px](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/navigation-bar-medium.png)
 
 When hovered over, the text displays an underline to show it is a button. When clicked the underline will be permenant, denoting which page the user is currently on.
 
-#### The Landing Page Image <br>
+#### The hero Image
 
-The landing page includes a hero image of a selection of IPAs, this has been chosen to engage with the user as its relevant to the nature of the website. The hero image changes with the media queries to enable a smoother resonse.
+All three pages includes a hero image of a selection of IPAs, this has been chosen to engage with the user as its relevant to the nature of the website. The hero image changes with the media queries to enable a smoother resonse.
 
-![Hero image at greater than 1200px]()
+##### Greater than 1200px
 
-![Hero image at less than 1200px]()
+![Hero image at greater than 1200px](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/hero-image-large.png)
 
-![Hero image at less than 350px]()
+##### Less than 1200px
 
-#### What is Meditation? <br>
+![Hero image at less than 1200px](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/hero-image-medium.png)
 
-This section provides an overview of meditation, explaining what meditation is.
+##### less than 350px
 
-#### Benefits of Meditation <br>
+![Hero image at less than 350px](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/hero-image-small.png)
+
+#### About us
+
+This section provides a brief description obout the website and its volunteers.
+
+#### Benefits of Meditation
 
 This section summarises the main benefits the user could expect from meditation practice.
 
-#### Techniques <br>
+#### Techniques
 
 This section contains the details of five techniques available, including how to practise them. In addition, there are three images of sunrise and inspirational quotes to inspire the user, which aim to generate a positive emotional response in the user and to help them get started. These images also include detailed alt attribute to describe the scenery and intend to deliver the same effect for all users.
 

@@ -112,17 +112,29 @@ This section includes an imbedded video which describes what IPA is, the history
 
 The contact page includes a section detailing contact information if the user requires any further info on the topic of IPA. There is also opening times for the office listed so the user will not be dissapointed by ringing and not getting an answer. A heading is provided to give information on the annual IPA festival and how to book tickets.
 
+##### Contact details
+
 ![Contact details section](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/contact-information.png)
 
 A second section provides the user with the location and date of the annual IPA festival.
 
-![IPA festival details](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/contact-information.png)
+##### IPA festival details
 
-#### 
+![IPA festival details](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/ipa-festival-location.png)
 
-This section contains the details of five techniques available, including how to practise them. In addition, there are three images of sunrise and inspirational quotes to inspire the user, which aim to generate a positive emotional response in the user and to help them get started. These images also include detailed alt attribute to describe the scenery and intend to deliver the same effect for all users.
+#### Form page
 
-<img src="docs/images/mindfulness-meditation-image.png" alt="Image showing the image for mindfulness meditation and inspirational quote" width=500>
+The form page is made up of three fieldsets designed to collect useful data from the user. The user will also be signed up to a monthly newsletter once the form is submitted. The form has required elements in all three fieldsets to ensure blank or half filled forms cannot be submitted. Name and email text inputs have been added to the first fieldset with an age dropdown menu showing six age ranges.
+
+![Personal details fieldset]()
+
+The second fieldset is made up of 9 radio buttons which work as intended, the user will only be able to select one option.
+
+![Favourite IPA radio fieldset]()
+
+The third fieldset is a text area for the user to give feedback on where they heard about the website. Having a competition linked to the completion of the form will encourage more users to fill in their details and submit, these details can be used for marketing purposes in the future.
+
+![Feedback fieldset]()
 
 #### Tips & Tricks <br>
 

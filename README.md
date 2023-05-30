@@ -64,29 +64,17 @@ There is only one font used in the website and it is imported from [Google Fonts
 
 Featured on all three HTML pages, the fully responsive navigation bar includes the logo which links back to the main page. There are also 3 individual navigation links (Home, Contact, Free Beer). This allows the user to easily navigate to their desired page without having to use the "back" button each time.
 
-Navigation bar for screen sizes <350px:
+#### Navigation bar for screen sizes <350px:
 
-[Repository Link](https://github.com/Daniel009891/appreciate-ipa)
+![Navigation bar less than 350px](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/navigation-bar-small.png)
 
+At 350px the text in the nav will change colour to light grey, this is due to the hero image changing. The light grey provides a better contrast for this background. When hovering over the navigation links, the text displays an underline and the cursor turns to a finger point, this enables the user to tell which link they are hovering over, and indicates that it is a button. When a link is pressed, the underline will stay permenantly on so as to show which page the user is currently looking at.
 
+#### Navigation bar for screen sizes >950px: 
 
-When hovering over the hamburger menu with the cursor, the cursor changes to the hand pointer to indicate that is a button. When the hamburger menu is clicked or tapped, the drop-down menu opens, so that the user can select the section that they would like to navigate to. When hovered over, the colour of the section name changes from white to light blue, which enables the user to see which link they are selecting. The drop-down menu is semi-transparent, so the user can see the screen behind the menu, and once the selection is made, they are able to see that the desired section is now at the top of the screen. Furthermore, when the drop-down menu is open, the hamburger icon changes to "X" so that it is more intuitive for the user to know that is how the drop-down menu is closed.
+![Navigation bar less than 950px](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/navigation-bar-medium.png)
 
-<img src="docs/images/hand-pointer.png" alt="Image showing the hand pointer" width=40>
-
-<img src="docs/images/navigation-bar-for-smaller-viewports.png" alt="Image showing the navigation bar when opened for smaller viewport sizes" width=300>
-
-Navigation bar for screen sizes >=905px: <br>
-
-<img src="docs/images/navigation-bar-for-larger-viewports.png" alt="Image showing the navigation bar for larger viewport sizes" width=700>
-
-When hovered over, the colour of the section name changes from white to light blue, which enables the user to see which link they are selecting.
-
-#### Back to Top Button
-
-Since the main contents are on a single page, the website includes a "Back to Top" button which appears at the bottom right-hand corner when the user starts scrolling down. This aims to produce a better user experience as it enables the user to quickly go back to the top of the main page without moving their cursor or hand to the top of the screen for the navigation bar. The background colour of the button is semi-transparent to minimise interference with the contents on smaller screen sizes.
-
-<img src="docs/images/back-to-top.png" alt="Image showing the back to top button with semi-transparent background" width=80>
+When hovered over, the text displays an underline to show it is a button. When clicked the underline will be permenant, denoting which page the user is currently on.
 
 #### The Landing Page Image <br>
 

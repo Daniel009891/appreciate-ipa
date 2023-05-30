@@ -100,13 +100,13 @@ All three pages includes a hero image of a selection of IPAs, this has been chos
 
 This section provides a brief description about the website and its volunteers.
 
-![About us section]()
+![About us section](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/about-us-section.png)
 
 #### IPA.. whats all the fuss about?
 
 This section includes an imbedded video which describes what IPA is, the history behinf it and the various types of IPA.
 
-![IPA whats all the fuss about section]()
+![IPA whats all the fuss about section](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/ipa-whats-all-the-fuss-about-section.png)
 
 ### Contact page
 

@@ -126,17 +126,21 @@ A second section provides the user with the location and date of the annual IPA 
 
 The form page is made up of three fieldsets designed to collect useful data from the user. The user will also be signed up to a monthly newsletter once the form is submitted. The form has required elements in all three fieldsets to ensure blank or half filled forms cannot be submitted. Name and email text inputs have been added to the first fieldset with an age dropdown menu showing six age ranges.
 
-![Personal details fieldset]()
+![Personal details fieldset](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/personal-details-fieldset.png)
 
 The second fieldset is made up of 9 radio buttons which work as intended, the user will only be able to select one option.
 
-![Favourite IPA radio fieldset]()
+![Favourite IPA radio fieldset](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/radio-button-fieldset.png)
 
 The third fieldset is a text area for the user to give feedback on where they heard about the website. Having a competition linked to the completion of the form will encourage more users to fill in their details and submit, these details can be used for marketing purposes in the future.
 
-![Feedback fieldset]()
+![Feedback fieldset](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/feedback-fieldset.png)
 
-#### Tips & Tricks <br>
+At the end of the form there are two buttons, submit and reset form. When hovered over the text changes colour from white to black to indicate it is a button. The submit button send the data off if all fields are filled out correctly. The reset button allows the user to clear the whole form, in case of any mistakes.
+
+![Submit and reset buttons]()
+
+![Submit and reset buttons hover]()
 
 This section contains helpful tips and tricks to help the user start their meditation journey.
 

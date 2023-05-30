@@ -305,6 +305,14 @@ button {
     margin-top: 20px;
 }
 
+#submit:hover {
+    color: black;
+}
+
+#reset:hover {
+    color: black;
+}
+
 /* Contact Page */
 
 #contact {

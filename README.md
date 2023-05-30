@@ -138,31 +138,17 @@ The third fieldset is a text area for the user to give feedback on where they he
 
 At the end of the form there are two buttons, submit and reset form. When hovered over the text changes colour from white to black to indicate it is a button. The submit button send the data off if all fields are filled out correctly. The reset button allows the user to clear the whole form, in case of any mistakes.
 
-![Submit and reset buttons]()
+![Submit and reset buttons](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/form-buttons.png)
 
-![Submit and reset buttons hover]()
+![Submit and reset buttons hover](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/form-buttons-hover.png)
 
-This section contains helpful tips and tricks to help the user start their meditation journey.
+#### Footer 
 
-#### Contact Us <br>
+The footer section includes links to the social media sites, the links open in a new tab to allow easy navigation for the user. The footer is available on all three HTML pages.
 
-This section contains a form that allows the user to send a message to ask questions or provide feedback. When hovered over, the text input area displays the border in dark pink, which enables the user to see which field they are selecting.<br>
+![Footer social media icons and links]()
 
-<img src="docs/images/contact-us-image.png" alt="Image showing the contact us section" width="400">
-
-When hovering over the "Submit" button with the cursor, the cursor changes to the hand pointer and the colour of "Submit" also changes from white to light blue, so that is more intuitive for the user to know that is a button.
-
-<img src="docs/images/hand-pointer.png" alt="Image showing the hand pointer" width=40>
-
-<img src="docs/images/submit-button.png" alt="Image showing the submit button in light blue" width =130>
-
-#### Footer <br>
-
-The footer section includes links to the social media sites as well as my own GitHub and Linkedin accounts. The links open in a new tab to allow easy navigation for the user. The footer is available on both HTML pages.
-
-<img src="docs/images/footer-image.png" alt="Image showing the footer" width=300>
-
-#### Thank You Page <br>
+#### Thank You Page 
 
 When the user sends a message from the main page, the second HTML page opens to thank them for their message. The navigation bar is consistent with the main page and this page includes a "Home" button so that the user can easily navigate back to the main page.
 

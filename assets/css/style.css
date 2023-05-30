@@ -308,6 +308,14 @@ button {
     height: 150px;
 }
 
+#contact > h2 {
+    margin-top: 40px;
+}
+
+#contact > p {
+    margin-top: 40px;
+}
+
 #number {
     height: 100px;
     width: 33%;
@@ -330,6 +338,7 @@ table {
 .information {
     width: 100%;
     margin: 0 auto;
+    padding-top: 40px;
 }
 
 img {
@@ -345,7 +354,13 @@ img {
 }
 
 #map > h2 {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+}
+
+#map > h3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 /* Media Query */
 

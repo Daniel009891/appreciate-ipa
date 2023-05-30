@@ -5,11 +5,10 @@ Welcome to Appreciate IPA. This is a website that focusses on Indian Pale Ale (I
 
 The users of this website will become familiar with what IPA is, the different types of IPA and the history surrounding it. Users will also be informed of the IPA festival location and date, with the opportunity to sign up to a monthly newsletter.
 
-![Responsive view of Appreciate IPA on all devices](https://github.com/daniel009891/appreciate-ipa/blob/master/documentation/website-responsive-views.jpg"")
+![Responsive view of Appreciate IPA on all devices](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/website-responsive-views.jpg)
 
 ## Live Website
-
-[Serene Meditation](https://shizukadonaghue.github.io/serene-meditation/)
+[Appreciate IPA](https://daniel009891.github.io/appreciate-ipa/index.html)
 
 ## Repository
 <https://github.com/ShizukaDonaghue/serene-meditation>

@@ -64,9 +64,11 @@ There is only one font used in the website and it is imported from [Google Fonts
 
 Featured on all three HTML pages, the fully responsive navigation bar includes the logo which links back to the main page. There are also 3 individual navigation links (Home, Contact, Free Beer). This allows the user to easily navigate to their desired page without having to use the "back" button each time.
 
-Navigation bar for screen sizes <905px:
+Navigation bar for screen sizes <350px:
 
-<img src="docs/images/navigation-bar-for-smaller-viewports-closed.png" alt="Image showing the navigation bar when closed for smaller viewport sizes" width=300>
+[Repository Link](https://github.com/Daniel009891/appreciate-ipa)
+
+
 
 When hovering over the hamburger menu with the cursor, the cursor changes to the hand pointer to indicate that is a button. When the hamburger menu is clicked or tapped, the drop-down menu opens, so that the user can select the section that they would like to navigate to. When hovered over, the colour of the section name changes from white to light blue, which enables the user to see which link they are selecting. The drop-down menu is semi-transparent, so the user can see the screen behind the menu, and once the selection is made, they are able to see that the desired section is now at the top of the screen. Furthermore, when the drop-down menu is open, the hamburger icon changes to "X" so that it is more intuitive for the user to know that is how the drop-down menu is closed.
 

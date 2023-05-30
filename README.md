@@ -54,7 +54,7 @@ The background colour for the homepage is light Grey rgba(211, 211, 211, 0.493) 
 
 ### Typography
 
-There are two fonts used in the website and they are imported from [Google Fonts](https://fonts.google.com/). For the main body of the texts, EI Messiri was chosen as it has a calming flow which suits the image of the website. For the inspirational quotes, Alex Brush was chosen, which is a beautiful handwriting style to suit the images.
+There is only one font used in the website and it is imported from [Google Fonts](https://fonts.google.com/). Lato was picked due to its contemporary feel, this compliments the topic beautifully as IPA is seen as a more modern contempoarary topic.
 
 ## Features
 
@@ -62,7 +62,7 @@ There are two fonts used in the website and they are imported from [Google Fonts
 
 #### Navigation Bar
 
-Featured on both HTML pages, the fully responsive navigation bar includes the logo which links to the top of the main page (rather than reloading the page for a better user experience) and a link to each section within the main page. This allows the user to easily navigate to their desired section without having to use the "back" button each time.
+Featured on all three HTML pages, the fully responsive navigation bar includes the logo which links back to the main page. There are also 3 individual navigation links (Home, Contact, Free Beer). This allows the user to easily navigate to their desired page without having to use the "back" button each time.
 
 Navigation bar for screen sizes <905px:
 

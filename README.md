@@ -104,15 +104,15 @@ This section provides a brief description about the website and its volunteers.
 
 #### IPA.. whats all the fuss about?
 
-This section includes an imbedded video which describes what IPA is, the history behinf it and the various types of IPA.
+This section includes an imbedded video which describes what IPA is, the history behind it and the various types of IPA.
 
 ![IPA whats all the fuss about section](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/ipa-whats-all-the-fuss-about-section.png)
 
-### Contact page
+### Contact page <br>
 
 The contact page includes a section detailing contact information if the user requires any further info on the topic of IPA. There is also opening times for the office listed so the user will not be dissapointed by ringing and not getting an answer. A heading is provided to give information on the annual IPA festival and how to book tickets.
 
-##### Contact details
+##### Contact details 
 
 ![Contact details section](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/contact-information.png)
 
@@ -122,7 +122,7 @@ A second section provides the user with the location and date of the annual IPA 
 
 ![IPA festival details](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/ipa-festival-location.png)
 
-#### Form page
+#### Form page <br>
 
 The form page is made up of three fieldsets designed to collect useful data from the user. The user will also be signed up to a monthly newsletter once the form is submitted. The form has required elements in all three fieldsets to ensure blank or half filled forms cannot be submitted. Name and email text inputs have been added to the first fieldset with an age dropdown menu showing six age ranges.
 
@@ -142,23 +142,12 @@ At the end of the form there are two buttons, submit and reset form. When hovere
 
 ![Submit and reset buttons hover](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/form-buttons-hover.png)
 
-#### Footer 
+#### Footer <br>
 
 The footer section includes links to the social media sites, the links open in a new tab to allow easy navigation for the user. The footer is available on all three HTML pages.
 
-![Footer social media icons and links]()
+![Footer social media icons and links](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/footer.png)
 
-#### Thank You Page 
-
-When the user sends a message from the main page, the second HTML page opens to thank them for their message. The navigation bar is consistent with the main page and this page includes a "Home" button so that the user can easily navigate back to the main page.
-
-<img src="docs/images/thank-you-page-image.png" alt="Image showing the thank you page" width=400>
-
-When hovering over the "Home" button with the cursor, the cursor changes to the hand pointer and the colour of "Home" changes from white to light blue, so that is more intuitive for the user to know that is a button, and also to be consistent with the "Submit" button on the main page.
-
-<img src="docs/images/hand-pointer.png" alt="Image showing the hand pointer" width=40>
-
-<img src="docs/images/home-button.png" alt="Image showing the submit button in light blue" width=130>
 
 ### Features Left to Implement
 

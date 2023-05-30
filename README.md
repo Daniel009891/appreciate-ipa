@@ -44,17 +44,13 @@ The website is fully responsive to different screen sizes and the layout adapts 
 
 The images have been chosen to highlight craft beer and IPA, to show a sense of culture and fun. The images are integral to the website as they give meaning to the topic at hand.
 
-Detailed alt attribute are included for each image to describe the scenery. The intention for this is to improve accessibility so that the images will deliver the same effect for all users.
+Detailed alt attribute are included for each image to describe the image for the ease of screen readers. The intention for this is to improve accessibility so that the images will deliver the same effect for all users.
 
 ### Colour Scheme
 
-The colour scheme for the website has taken inspiration from the hero image of Mt. Fuji at sunrise in which the morning sun is turning the top of the mountain and the surrounding sky pink. The colours chosen are gentle and calming to suit the purpose of the website and to promote a sense of peace and calm in the user.
+The colour scheme for the website is minimilistic to enable all users to read the text without any posibility of clashing with backgrounds. A light grey background has been used on the home page, this has also been used on the footer element. The classic grey colour is contemporary and is regularly used with similar websites of this nature.
 
-The background colour for the website is pale pink F3E4E4 as soft pink colours promote tranquillity and peace. The colour of texts for the main contents is dark grey 01212F to ensure sufficient contrast for accessibility. The navigation bar is in dark blue 092039 with contrasting font in white FFFFFF. Dark pink C98282 is used for the social media icons in the footer, and light blue 68A5BF is used for hover effects within the website.
-
-Colour palette generated using [Coolors.co](https://coolors.co/):
-
-<img src="docs/images/colour-palette.jpg" alt="Image showing the colours used for the website" width=600>
+The background colour for the homepage is light Grey rgba(211, 211, 211, 0.493) with transparency applied. This allows the colour to remain subtle and not create a negative contrast. The colour of texts for the main contents is black to ensure sufficient contrast for accessibility. The navigation bar has a background colour of white #FFFFFF with contrasting font in Black. Black is used for the social media icons in the footer, and slate Grey #708090 is used for dividing borders within the website.
 
 ### Typography
 

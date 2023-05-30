@@ -19,50 +19,32 @@ The users of this website will become familiar with what IPA is, the different t
 
 As a user,
 
-* I would like the website to be visually appealing and gives me a sense of peace and calm.
+* I would like the website to be visually appealing and give me an understanding of IPA.
 * I would like to be able to navigate easily through the website.
-* I would like to understand what meditation is and its benefits.
-* I would like to be able to learn meditation techniques and how to get started.
-* I would like to be inspired to start meditation.
+* I would like to understand what IPA is and its history.
+* I would like to be able to learn more about IPA and the different types.
+* I would like to find out about future events on the website.
 * I would like to be able to ask questions or provide feedback.
 
 ### Initial Concept
 
-The initial concept was to create a website that would inspire users to start their meditation practice and help them get started. Therefore, the website would explain what benefits they could expect and what types of techniques were available, so that users could try different meditation techniques to start their journey.
-
-### Wireframes
-
-Wireframes were generated using [Balsamiq](https://balsamiq.com/) to visualise the structure of the website. The structure of the finished website slightly varies from the wireframes due to development that occurred during the building process, however, the main structure remained the same.
-
-Wireframes for mobiles:<br>
-
-<img src="docs/images/wireframe-for-mobile.png" alt="Image showing the wireframe for mobiles" width=400>
-
-Wireframes for tablets:<br>
-
-<img src="docs/images/wireframe-for-tablet.png" alt="Image showing the wireframe for tablets" width=500>
-
-Wireframe for desktop:<br>
-
-<img src="docs/images/wireframe-for-desktop.png" alt="Image showing the wireframe for tablets" width=350>
+The initial concept was to create a website that would both inform existing fans of IPA and help new people understand the history, popularity and types of IPA. As well as keep members updated on all craft beer related news through the medium of a newsletter.
 
 ### Website Structure
 
-Serene Meditation consists of two HTML pages. The layout of the website is simple and consistent full-page scroll with a fixed navigation bar at the top. The intention for this simple design is to have a clean and uncluttered website in which the user can feel calm and peaceful.
+Appreciate IPA consists of three HTML pages. The layout of the website is simple and consistent. A navigation bar at the top makes switching through the pages easy and effortless.
 
-The main page is the default landing page and the second page is accessible when the user submits a message from the main page to thank them for their message. There are five sections within the main page and they are also accessible from the navigation bar to bring the user to a specific section of the page.
+The main page is the default landing page, the second and third pages are easily accessible by clicking on the links in the navigation bar. Each page is broken up so that relevant information for that page is easily found. 
 
-In addition to the navigation bar, the second page includes a "Home" button, so that the user can easily navigate back to the main page after submitting a message. The logo is linked to the top of the main page to deliver the same effect and the user can also choose to navigate to a specific section of the main page from the navigation bar on the second page.
+In addition to the navigation bar, The logo is linked to the top of the each page to redirect the user back to the home page.
 
-The website is fully responsive to different screen sizes and the layout is the same in all sizes with images spanning across the full width of the page. All images are adjusted to the full width of the screen, and they are displayed in the same size throughout the main page for consistency.
-
-Each of these images includes an inspirational quote to suit the content of the section that they are in. These images and quotes are designed to generate a positive emotional response in the user and aim to inspire them to start their meditation journey, and therefore, the images are an integral part of the website.
+The website is fully responsive to different screen sizes and the layout adapts and changes as the screen sizes decrease. This was found to be the best option to keep a clear and concise website. Iframes and images change size as the screen sizes get smaller, so as to not disform the layout. The hero image spans the full length of the webpage and changes with the relevant screen sizes.
 
 ### Imagery
 
-The images are carefully chosen to set the calm and peaceful tone for the website. They are beautiful images of sunrise to signify the start of a meditation journey.
+The images have been chosen to highlight craft beer and IPA, to show a sense of culture and fun. The images are integral to the website as they give meaning to the topic at hand.
 
-Detailed alt attribute is included for each image to describe the scenery. The intention for this is to improve accessibility so that the images will deliver the same effect for all users.
+Detailed alt attribute are included for each image to describe the scenery. The intention for this is to improve accessibility so that the images will deliver the same effect for all users.
 
 ### Colour Scheme
 

@@ -94,15 +94,23 @@ All three pages includes a hero image of a selection of IPAs, this has been chos
 
 ![Hero image at less than 350px](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/hero-image-small.png)
 
+### Home page
+
 #### About us
 
-This section provides a brief description obout the website and its volunteers.
+This section provides a brief description about the website and its volunteers.
 
-#### Benefits of Meditation
+![About us section]()
 
-This section summarises the main benefits the user could expect from meditation practice.
+#### IPA.. whats all the fuss about?
 
-#### Techniques
+This section includes an imbedded video which describes what IPA is, the history behinf it and the various types of IPA.
+
+![IPA whats all the fuss about section]()
+
+### Contact page
+
+#### 
 
 This section contains the details of five techniques available, including how to practise them. In addition, there are three images of sunrise and inspirational quotes to inspire the user, which aim to generate a positive emotional response in the user and to help them get started. These images also include detailed alt attribute to describe the scenery and intend to deliver the same effect for all users.
 

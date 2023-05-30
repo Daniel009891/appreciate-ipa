@@ -110,6 +110,14 @@ This section includes an imbedded video which describes what IPA is, the history
 
 ### Contact page
 
+The contact page includes a section detailing contact information if the user requires any further info on the topic of IPA. There is also opening times for the office listed so the user will not be dissapointed by ringing and not getting an answer. A heading is provided to give information on the annual IPA festival and how to book tickets.
+
+![Contact details section](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/contact-information.png)
+
+A second section provides the user with the location and date of the annual IPA festival.
+
+![IPA festival details](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/contact-information.png)
+
 #### 
 
 This section contains the details of five techniques available, including how to practise them. In addition, there are three images of sunrise and inspirational quotes to inspire the user, which aim to generate a positive emotional response in the user and to help them get started. These images also include detailed alt attribute to describe the scenery and intend to deliver the same effect for all users.

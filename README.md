@@ -78,9 +78,13 @@ When hovered over, the text displays an underline to show it is a button. When c
 
 #### The Landing Page Image <br>
 
-The landing page includes a photograph of Mt. Fuji at sunrise with an inspirational quote, aiming to inspire the user to start their meditation practice. The image includes detailed alt attribute to describe the scenery, which aims to deliver the same effect to all users.
+The landing page includes a hero image of a selection of IPAs, this has been chosen to engage with the user as its relevant to the nature of the website. The hero image changes with the media queries to enable a smoother resonse.
 
-<img src="docs/images/landing-page-image.png" alt="Image showing the landing page image and inspirational quote" width=500>
+![Hero image at greater than 1200px]()
+
+![Hero image at less than 1200px]()
+
+![Hero image at less than 350px]()
 
 #### What is Meditation? <br>
 

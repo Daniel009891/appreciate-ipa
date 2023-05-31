@@ -235,11 +235,13 @@ Responsiveness design tests were executed using [Chrome Dev Tools](https://devel
 
 ### Resolved Bugs
 
+*A bug was fixed where in google chrome, when the media query was applied to the homepage th e iframe for the video element was creating a white space down the right hand side of the page vertically. It was found to be an issue with the size and padding of the iframe pushing the browser out creating a horizontal scroll bar. I resized the iframe and reduced the padding to stop this happening.
 
+*When testing the layout initially the footer  element was floating in the middle section of the page, I researched how to change this as normall CSS styling didnt help. I found that adding a flex box pushed the fotter into position and lept it at the bottom of the page in its desired location. 
 
 ### Unresolved Bug
 
-
+* There are no known unresolved bugs within the website.
 
 ## Deployment
 
@@ -273,19 +275,20 @@ To make a copy or "fork" the original repository to view or make changes without
 
 ### Contents
 
-* Video for about IPA was sourced from [youtube.com](https://www.youtube.com/).
-
-
 ### Media
 
 * Images used were sourced from [shutterstock.com](https://www.shutterstock.com/).
+* Video for about IPA was sourced from [youtube.com](https://www.youtube.com/).
+* The map used on the contact page was sourced from [Google Maps](https://app.grammarly.com/).
 
 ### Codes
 
-
+* The nav element and media query sizes were inspired by the[Love Running](https://github.com/Daniel009891/love-running) project.
+* The flex box was inspired by [Kiranworkspace.com](https://kiranworkspace.com/how-to-stick-footer-to-bottom-of-page/) to aid with the footer position.
 
 ## Acknowledgements
 
 This website was created as a portfolio 1 project for the Full Stack Software Development course at [Code Institute](https://codeinstitute.net/ie/). I would like to thank my mentor, [Harry Dhillon](https://github.com/Harry-Leepz), for the guidance and encouragement given throughout the project. Following his valuable feedback and advice, the website has been refined to be more intuitive and it has improved the overall user experience.
 
-I would also like to thank [Simen Daehlin](https://www.github.com/Eventyret) at [Code Institute](https://codeinstitute.net/ie/) for his patience and time answering all the questions during the class and also in Slack.
+I would also like to thank the slack community at Code institute, the issues with styling and positioning have been rectified mostly by searching the same issues on slack. This has proven an invaluable tool for myself.
+

@@ -183,7 +183,7 @@ The website was tested with Lighthouse in the Dev Tools for performance, accessi
 
 Results for index.html for desktop: <br>
 
-<img src="docs/images/lighthouse-desktop.png" alt="Image showing Lighthouse results for index.html for desktop" width=400>
+![Image showing results for index.html on desktop](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/footer.png)
 
 Results for index.html for mobile: <br>
 

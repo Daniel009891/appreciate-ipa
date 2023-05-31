@@ -175,48 +175,53 @@ The footer section includes links to the social media sites, the links open in a
 
 ### Code Validation
 
-The website was fully validated to ensure there were no syntax errors. The official [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) were used for the validation and no errors were found. One warning is showing for all thre HTML pages as a section has been used for the hero image without a heading element, this is minor and does not effevt any functionality. 
+The website was fully validated to ensure there were no syntax errors. The official [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) were used for the validation and no errors were found. One warning is showing for all three HTML pages as a section has been used for the hero image without a heading element, this is minor and does not effevt any functionality.
 
 ### Lighthouse
 
 The website was tested with Lighthouse in the Dev Tools for performance, accessibility, best practices, and SEO.
 
-Results for index.html for desktop: <br>
+##### Results for index.html for desktop
 
-![Image showing results for index.html on desktop](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/footer.png)
+![Image showing results for index.html on desktop](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/home-page-lighthouse-desktop.png)
 
-Results for index.html for mobile: <br>
+##### Results for index.html for mobile
 
-<img src="docs/images/lighthouse-mobile.png" alt="Image showing Lighthouse results for index.html for mobile" width=400>
+![Image showing results for index.html on mobile](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/home-page-lighthouse-mobile.png)
 
-Results for thank-you.html for desktop: <br>
+##### Results for contact.html for desktop
 
-<img src="docs/images/lighthouse-desktop-thank-you.png" alt="Image showing Lighthouse results for thank-you.html for desktop" width=400>
+![Image showing results for contact.html on desktop](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/contact-page-lighthouse-desktop.png)
 
-Results for thank-you.html for mobile: <br>
+##### Results for contact.html for mobile
 
-<img src="docs/images/lighthouse-mobile-thank-you.png" alt="Image showing Lighthouse results for thank-you.html for mobile" width=400>
+![Image showing results for contact.html on mobile](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/contact-page-lighthouse-mobile.png)
+
+##### Results for form.html for desktop
+
+![Image showing results for form.html on desktop](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/form-page-lighthouse-desktop.png)
+
+##### Results for form.html for mobile
+
+![Image showing results for form.html on mobile](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/form-page-lighthouse-mobile.png)
 
 ### Brower Compatibility
 
-Appearance, functionality and responsiveness of the website were tested with the following browsers:<br>
+Appearance, functionality and responsiveness of the website were tested with the following browsers:
 
 * Google Chrome
 * Safari
 * Microsoft Edge
-* Mozilla Firefox
-* Opera
 
 As part of this testing, the following were tested and no issues were found:
 
-* All internal links function as expected
-* All external links function as expected and they open in new tabs
-* All features function as expected
-* Scroll-padding property correctly applied for the fixed navigation bar
-* The form inputs validated - empty fields are not allowed and only correct email address format is accepted
-* Responsiveness to different screen sizes - images, quotes, font sizes, margins, and overall spacing
+* All internal links function as expected.
+* All external links function as expected and they open in new tabs.
+* All features function as expected.
+* The form inputs validated - empty fields are not allowed and only correct email address format is accepted.
+* Responsiveness to different screen sizes - images, iframes, font sizes, margins, and overall spacing.
 
-The website was also manually tested on iPhone 12, iPhone XR, iPad 8, HP Elitebook 840, and Dell XPS for the above. No issues were found.
+The website was also manually tested on iPhone 12 pro, samsung galaxy tab e and HP pavillion laptop for the above. No issues were found.
 
 ### Responsiveness
 
@@ -224,84 +229,22 @@ Responsiveness design tests were executed using [Chrome Dev Tools](https://devel
 
 * iPhone 4, SE, XR, 12 Pro, 5/SE, 6/7/8, 6/7/8 Plus and X
 * iPad Air and iPad Mini
-* Samsung Galaxy S8+, S20 Ultra, A51/71
+* Samsung Galaxy S8+, S20 Ultra
 * Microsoft Surface Pro 7 and Duo
 * Nest Hub and Hub Max
 
-### User Stories
-
-All user stories were tested and addressed as follows:
-
-* *I would like the website to be visually appealing and gives me a sense of peace and calm.*<br>
-
-    The website is clean and uncluttered. The colours chosen for the website are gentle and calming. The background colour is pale pink as soft pink colours promote tranquillity and peace. The images are also carefully chosen to suit the colour scheme and the purpose of the website.
-
-* *I would like to be able to navigate easily through the website.*
-
-    The layout of the website is simple and consistent full-page scroll with a fixed navigation bar at the top. The user can easily navigate to a specific section of the website from the navigation bar. When the user starts scrolling, the "Back to Top" button appears at the bottom right-hand corner and the user can quickly go back to the top of the main page.
-
-    When the user submits a message, the second page opens to thank them for their message. The same navigation bar is available on the second page and this page also includes the "Home" button so that the user can easily go back to the main page after submitting a message.  
-
-* *I would like to understand what meditation is and its benefits.*<br>
-
-    The website contains a section which describes what meditation is and its main benefits at the start of the page.
-
-* *I would like to be able to learn meditation techniques and how to get started.*<br>
-
-    The website contains a section which details meditation techniques and how to practise them. Additionally, it also contains useful tips and tricks to help the user get started.
-
-* *I would like to be inspired to start meditation.*<br>
-
-    The website contains images of sunrise and inspirational quotes to inspire the user to start their meditation practice. The images of sunrise aim to signify the start of their meditation journey.
-
-* *I would like to be able to ask questions or provide feedback.*<br>
-
-    The website contains a form so that the user can send a message to ask questions or provide feedback.
-
 ### Resolved Bugs
 
-#### Safari
 
-Scroll-padding-top property is applied to the website so that when the link to each section is selected from the navigation bar, the desired section moves to the top of the screen below the fixed navigation bar (not hidden under the navigation bar), however, in Safari for Apple devices, the padding was applied larger than the rem unit set and the section above was visible. The issue was not seen in Chrome Dev Tools during the building process.
-
-The issue was resolved by changing the scroll-padding-top property from rem to px.
-
-Image showing scroll-padding not applied correctly before the issue was resolved:
-
-<img src="docs/images/scroll-padding-error.png" alt="Image showing scroll-padding-top issue" width=300/>
-
-Image showing scroll-padding applied correctly after the fix:
-
-<img src="docs/images/scroll-padding-fixed.png" alt="Image showing scroll-padding-top after the fix" width=300/>
-
-#### Firefox
-
-The "Submit" button was rendered as "Submit Query" in Firefox.
-
-Image showing the "Submit" button in Firefox:
-
-<img src="docs/images/submit-button-firefox.png" alt="Image showing the submit button in Firefox" width=130>
-
-This has been resolved by adding value="Submit" to the input element.
-
-Image showing the "Submit" button after the fix:
-
-<img src="docs/images/submit-button-firefox-after-fix.png" alt="Image showing the submit button in Firefox" width=130>
 
 ### Unresolved Bug
 
-#### Safari
 
-The "Submit" and "Home" buttons should appear the same for consistency, however, in Safari for Apple Devices, the shape of the "Submit" buttons appears differently (it appears that the border-radius is higher). This issue is not seen in the Dev Tools or desktop applications. Despite the efforts made to modify the CSS codes so that the codes would be rendered the same in Safari, this issue was not resolved. This is a minor appearance issue and does not affect the functionality.
-
-Image showing the "Submit" button in Safari:
-
-<img src="docs/images/submit-button-in-safari.jpg" alt="Image showing the submit button in Safari" width=140>
 
 ## Deployment
 
 The website has been deployed to GitHub pages.
-The live link can be found here - [Serene Meditation](https://shizukadonaghue.github.io/serene-meditation/)
+The live link can be found here - [Appreciate IPA]()
 
 ### Deploying a GitHub Repository to GitHub Pages
 

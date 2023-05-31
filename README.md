@@ -108,11 +108,11 @@ This section includes an imbedded video which describes what IPA is, the history
 
 ![IPA whats all the fuss about section](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/ipa-whats-all-the-fuss-about-section.png)
 
-### Contact page <br>
+### Contact page
 
 The contact page includes a section detailing contact information if the user requires any further info on the topic of IPA. There is also opening times for the office listed so the user will not be dissapointed by ringing and not getting an answer. A heading is provided to give information on the annual IPA festival and how to book tickets.
 
-##### Contact details 
+##### Contact details
 
 ![Contact details section](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/contact-information.png)
 
@@ -122,7 +122,7 @@ A second section provides the user with the location and date of the annual IPA 
 
 ![IPA festival details](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/ipa-festival-location.png)
 
-#### Form page <br>
+#### Form page
 
 The form page is made up of three fieldsets designed to collect useful data from the user. The user will also be signed up to a monthly newsletter once the form is submitted. The form has required elements in all three fieldsets to ensure blank or half filled forms cannot be submitted. Name and email text inputs have been added to the first fieldset with an age dropdown menu showing six age ranges.
 
@@ -142,54 +142,40 @@ At the end of the form there are two buttons, submit and reset form. When hovere
 
 ![Submit and reset buttons hover](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/form-buttons-hover.png)
 
-#### Footer <br>
+#### Footer
 
 The footer section includes links to the social media sites, the links open in a new tab to allow easy navigation for the user. The footer is available on all three HTML pages.
 
 ![Footer social media icons and links](https://github.com/Daniel009891/appreciate-ipa/blob/main/documentation/footer.png)
 
-
 ### Features Left to Implement
 
-* The drop-down menu from the hamburger menu currently stays open after the user selects one of the sections and navigates to the desired section. The drop-down menu is only closed by clicking or tapping on the "X" at the top. If the drop-down menu disappears once the user selects one of the sections or taps outside of the drop-down menu, it would help to improve the user experience. This is something that can be implemented once I learn JavaScript.
+* The navigation bar is currently still three seperate links when the screen size is below 350px. I would like to add a hamburger drop down menu to fit the screen better and give a positive experience at this resolution.
 
-* The navigation bar currently does not have a drop-down menu for the "Techniques" section, which would enable the user to navigate to a specific technique from the "Techniques" section of the navigation bar. This would be a nice addition to the website that can be implemented once I gain more experience in coding to do so.
+* I would like to incorporate a chatbot popup to give FAQs and standard answers for the user.Once ive learned Python hopefully i can achieve this.
 
 ## Technologies Used
 
 * The website was created with [HTML](https://html.spec.whatwg.org/).
 * [CSS](https://www.w3.org/Style/CSS/Overview.en.html) was used to add styling to the website.
-* [Gitpod](https://www.gitpod.io/) was used to create, edit and preview the codes.
+* [Codeanywhere](https://codeanywhere.com/) was used to create, edit and preview the codes.
 * [Git](https://git-scm.com/) was used for version control and tracked changes in the codes.
 * [GitHub](https://github.com/) was used to store the codes and deploy the website.
 * [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) were used extensively while adjusting the objects in the website for different screen sizes.
 * The website was fully validated using [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
-* [Balsamiq](https://balsamiq.com/) was used to generate wireframes.
 * [Am I responsive?](https://ui.dev/amiresponsive) was used to generate the mockup image showing the website on various screen sizes.
 * The fonts used in the website are imported from [Google Fonts](https://fonts.google.com/).
 * The website uses icons from [Font Awesome](https://fontawesome.com/).
-* The website uses [cdnjs.com](https://cdnjs.com/) for Font Awesome icons so that the website loads quickly.
-* The colour scheme ideas and actual colour palette were generated with [Coolors.co](https://coolors.co/).
-* Images within the website were compressed with [Compressor.io](https://compressor.io/) so that the website loads quickly.
-* [Grammarly](https://app.grammarly.com/) was used to fix grammatical errors across the website.
+* [Shutterstock](https://www.shutterstock.com/) was used to source royalty free images.
+* The website uses icons from [Font Awesome](https://fontawesome.com/).
+* [YouTube](https://app.grammarly.com/) was used to embed an informative video withn the website.
+* A map was embedded in the website using [Google Maps](https://app.grammarly.com/)
 
 ## Testing
 
 ### Code Validation
 
-The website was fully validated to ensure there were no syntax errors. The official [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) were used for the validation and no errors were found.<br>
-
-Validation result for index.html:<br>
-
-<img src="docs/images/html-validator.png" alt="Image showing HTML validator result" width=500>
-
-Validation result for thank-you.html:
-
-<img src="docs/images/html-validator.png" alt="Image showing HTML validator result" width=500>
-
-Validation result for style.css:
-
-<img src="docs/images/css-validator.png" alt="Image showing HTML validator result" width=700>
+The website was fully validated to ensure there were no syntax errors. The official [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) were used for the validation and no errors were found. One warning is showing for all thre HTML pages as a section has been used for the hero image without a heading element, this is minor and does not effevt any functionality. 
 
 ### Lighthouse
 
